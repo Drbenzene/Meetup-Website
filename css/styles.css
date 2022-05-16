@@ -1,0 +1,433 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Graphik Meetup, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+.thehead-con {
+  padding: 1.25rem;
+  justify-content: flex-end;
+}
+
+.thehead-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.options-link li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px 10px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.theres {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.heading-con {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+header {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+
+#header-subText {
+  font-size: 16px;
+  margin: 24px 0px;
+}
+
+.main-section {
+  /* background-image: url("https://secure.meetupstatic.com/next/images/blobs/red-blob.svg"); */
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  /* url("https://secure.meetupstatic.com/next/images/blobs/green-blob.svg"), url("https://secure.meetupstatic.com/next/images/blobs/green-blob.svg"); */
+}
+
+.body-container {
+  background-image: url("https://secure.meetupstatic.com/next/images/blobs/green-blob.svg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  left: 500px;
+}
+
+.make-friend {
+  display: flex;
+  align-items: center;
+}
+
+.options-button {
+  background-color: #008294 !important;
+  border-radius: 40px !important;
+  line-height: 1;
+  color: white !important;
+  font-size: 14px;
+  height: auto;
+  padding: 1rem !important;
+}
+
+.form-field-text input {
+  padding: 8px 10px 8px 30px;
+  border-radius: 0.25rem;
+  border-color: #d9d9d9;
+  border-width: 1px;
+  margin-right: 0.625rem;
+  margin: 1.25rem 0rem;
+  width: 18.75rem;
+}
+
+.search-btn button {
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  background-color: rgb(246 88 88);
+  text-align: center;
+  border-radius: 0.75rem;
+  height: 3rem;
+  width: 90%;
+}
+
+.button-yes {
+  padding: 0.5rem;
+}
+
+.how-it-works {
+  text-align: center;
+  width: 50%;
+}
+
+.how-it-wrk-row {
+  display: flex;
+  text-align: center;
+}
+.join-btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#join-button {
+  background: #008294;
+  text-align: center;
+  justify-content: center;
+}
+
+.join-btn-div {
+  padding: 3rem 1rem;
+}
+
+.todo-con {
+  margin: 5rem 0rem;
+}
+
+.event-info {
+  padding: 0.9375rem;
+}
+
+.events-content {
+  width: 100vw;
+  text-align: center;
+}
+
+.events-container img {
+  width: 80%;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.5rem;
+}
+
+.user-images img {
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 624.9375rem;
+  position: relative;
+}
+
+.event-attendance {
+  display: inline;
+  flex-direction: row;
+}
+
+.user-images {
+  flex-flow: row wrap;
+  display: inline-flex;
+}
+
+.app-container {
+  display: flex;
+  flex-flow: row;
+}
+
+.android-item img {
+  height: 25rem;
+  width: 368px;
+}
+
+.android-app img {
+  position: absolute;
+  width: 15.5rem;
+  height: 22.8125rem;
+}
+
+footer {
+  background-color: black;
+}
+
+.create-group-footer > a {
+  box-sizing: border-box;
+  margin: 0rem 0rem 0rem 1rem;
+  margin: 0.5rem 0.75rem;
+  border: 3px solid white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  background-color: transparent;
+  fill: white;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  display: inline-flex;
+}
+
+.account-footer li {
+  list-style: none;
+  font-size: 0.875rem;
+  font-style: normal;
+  line-height: 20px;
+  color: #c5c4c4;
+  padding: 0.25rem 0rem;
+}
+
+.account-footer ul {
+  padding-left: 0rem;
+  padding-top: 0.625rem;
+}
+
+.app-icons {
+  justify-content: flex-end;
+  float: right;
+}
+
+.last-footer {
+  padding-right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footers-navs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-footer li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 20px;
+}
+
+.social-icons i {
+  padding-right: 20px;
+}
+
+.features-box {
+  border-radius: 40px;
+  font-size: 14px;
+  line-height: 1;
+  padding: 1rem;
+  background-color: #008294;
+  border-color: #008294;
+  min-height: 3rem;
+  margin-right: 0.5rem;
+  min-width: auto;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+  border: 0 solid;
+  color: white;
+  text-align: center;
+}
+.event-image img {
+  border: 1px solid #d9d9d9;
+  border-radius: 0.5rem;
+}
+
+.profile-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-images img {
+  border-radius: 50%;
+  position: relative;
+  border: 2px white solid;
+}
+
+#img2 {
+  right: 15%;
+}
+#img3 {
+  right: 30%;
+}
+
+.profile {
+  display: flex;
+  padding: 0.75rem 0rem;
+}
+
+.app-info {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.online-event {
+  position: absolute;
+  color:white;
+  left: 8%;
+}
+
+
+.popular-row {
+  display: flex;
+}
+
+.popular-groups {
+  display: flex;
+  justify-content: space-between;
+}
+
+.groups-col {
+border: 4px solid rgb(237, 222, 222);
+border-radius: 20px;
+height: 150%;
+width: auto;
+margin: 0rem 2rem 0rem 0rem;
+}
+
+.groupinfo {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.groupinfo img {
+  background-color: red;
+  border-radius: 1.25rem;
+  margin-right: 0.625rem;
+}
+
+
+
+
+
+
+
+/* FOR MOBILE RESPONSIVENESS */
+@media only screen and (max-width: 768px) {
+  #celebrating-text {
+    text-align: center;
+  }
+
+  .body-container {
+    overflow: hidden;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content:center;
+    align-items: center
+  }
+
+  .theimages {
+    margin: 3.125rem 40px !important;
+  }
+
+  .form-field-text {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #seeWhat {
+    display: none;
+  }
+
+  .search-btn {
+    margin: 20px 0px;
+  }
+
+  .form-field-text input {
+    padding: 8px 10px 8px 30px;
+    border-radius: 0.25rem;
+    border-color: #d9d9d9;
+    border-width: 1px;
+    margin-right: 0.625rem;
+    margin: 0rem;
+    width: 18.75rem;
+    display: block;
+    width: 100%;
+  }
+  .search-btn button {
+    width: 100%;
+  }
+
+  .heading-con {
+    margin-top: 1.25rem;
+    margin-bottom: 5rem;
+  }
+
+  #english {
+    display: none;
+  }
+
+  .android-app {
+    display: none;
+  }
+
+  .group-card-row {
+    flex-direction: column;
+  }
+  .groups-col {
+    margin: 1.25rem 0px; 
+  }
+
+  .events-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .events-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #explore-more {
+    display: none;
+  }
+
+  .card-group {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
